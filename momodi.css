@@ -1,0 +1,46 @@
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.top-row-sub {
+    padding-top: 50px;
+}
+
+.inevitability-container {
+    flex-direction: column;
+}
+
+.inevitability {
+    text-align: center;
+}
+
+.anxiety-skills-container {
+    display: flex;
+}
+
+.anxiety-skills-top-row {
+    flex-direction: row;
+}
+
+.anxiety-skills-bottom-row {
+    flex-direction: row;
+}
+
+.character-name {
+    padding-bottom: 50px;
+}
+
+.player-name {
+    padding-bottom: 50px;
+}
+
+
