@@ -52,6 +52,26 @@ section :not(:first) {
     max-width: 389.96px;
 }
 
+.fourth-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fourth-row-sub {
+    max-width: 389.96px;
+}
+
+.fifth-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fifth-row-sub {
+    max-width: 389.96px;
+}
+
 .inevitability {
     margin: auto;
 }
@@ -172,6 +192,63 @@ section :not(:first) {
 }
 
 .megalomania-skills-right > ul > li:not(:first-child) {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.obsession-skills-left > ul {
+    display: flex;
+    justify-content: center;
+}
+
+.obsession-skills-right > ul {
+    display: flex;
+    justify-content: center;
+}
+
+.obsession-skills-left > ul > li:first-child {
+    padding-right: 10px;
+}
+
+.obsession-skills-left > ul > li:not(:first-child) {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.obsession-skills-right > ul > li:first-child {
+    padding-right: 10px;
+}
+
+.obsession-skills-right > ul > li:not(:first-child) {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.pedantry-skills-left > ul {
+    display: flex;
+    justify-content: center;
+}
+
+.pedantry-skills-right > ul {
+    display: flex;
+    justify-content: center;
+}
+
+.pedantry-skills-left > ul > li:first-child {
+    padding-right: 10px;
+}
+
+.pedantry-skills-left > ul > li:not(:first-child) {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.pedantry-skills-right > ul > li:first-child {
+    padding-right: 10px;
+}
+
+.pedantry-skills-right > ul > li:not(:first-child) {
     padding-right: 10px;
     padding-left: 10px;
 }
