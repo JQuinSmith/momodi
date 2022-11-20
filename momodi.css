@@ -1,13 +1,21 @@
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
 .title {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
+.new-section {
+    margin-top: 5rem;
+}
+
 .top-row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     justify-content: space-around;
 }
 
@@ -15,15 +23,33 @@
     padding-top: 50px;
 }
 
+section :not(:first) {
+    margin-top: 50px;
+}
+
+.skills-title {
+    display: flex;
+    justify-content: center;
+}
+
 .second-row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     justify-content: space-around;
 }
 
 .second-row-sub {
     padding-top: 50px;
+}
+
+.third-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.third-row-sub {
+    max-width: 389.96px;
 }
 
 .inevitability {
@@ -41,15 +67,6 @@
 .sub-inevitability-container {
     display: flex;
     flex-direction: column;
-}
-
-.anxiety {
-    display: flex;
-    justify-content: center;
-}
-
-.anxiety-inevitability {
-    margin: auto;
 }
 
 .anxiety-skills-container {
@@ -111,11 +128,6 @@
     padding-bottom: 50px;
 }
 
-.cantankerous {
-    display: flex;
-    justify-content: center;
-}
-
 .cantankerous-skills-container {
     display: flex;
     flex-direction: column;
@@ -123,6 +135,7 @@
 
 .cantankerous-skills-second-row > ul {
     display: flex;
+    padding-left: 0px;
 }
 
 .cantankerous-skills-second-row > ul > li:first-child {
@@ -135,3 +148,30 @@
 }
 
 
+.megalomania-skills-left > ul {
+    display: flex;
+    justify-content: center;
+}
+
+.megalomania-skills-right > ul {
+    display: flex;
+    justify-content: center;
+}
+
+.megalomania-skills-left > ul > li:first-child {
+    padding-right: 10px;
+}
+
+.megalomania-skills-left > ul > li:not(:first-child) {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.megalomania-skills-right > ul > li:first-child {
+    padding-right: 10px;
+}
+
+.megalomania-skills-right > ul > li:not(:first-child) {
+    padding-right: 10px;
+    padding-left: 10px;
+}
