@@ -15,24 +15,92 @@
     padding-top: 50px;
 }
 
+.second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.second-row-sub {
+    padding-top: 50px;
+}
+
+.inevitability {
+    margin: auto;
+}
+
 .inevitability-container {
     flex-direction: column;
 }
 
-.inevitability {
+.inevitability-title {
     text-align: center;
+}
+
+.sub-inevitability-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.anxiety {
+    display: flex;
+    justify-content: center;
+}
+
+.anxiety-inevitability {
+    margin: auto;
 }
 
 .anxiety-skills-container {
     display: flex;
+    flex-direction: column;
 }
 
-.anxiety-skills-top-row {
+.anxiety-skills-container-right > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.anxiety-skills-container-right > ul > div {
+    display: flex;
     flex-direction: row;
 }
 
-.anxiety-skills-bottom-row {
-    flex-direction: row;
+.anxiety-skills-container-right > ul > div > li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.anxiety-skills-top-row > ul {
+    display: flex;
+}
+
+.anxiety-skills-top-row > ul > li:not(:first-child)  {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.anxiety-skills-top-row > ul > li:first-child {
+    padding-right: 10px;
+}
+
+.anxiety-skills-bottom-row > ul {
+    display: flex;
+}
+
+.anxiety-skills-bottom-row > ul > li {
+    padding-right: 15px;
+}
+
+.anxiety-skills-bottom-row > ul > li:not(:first-child)  {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.anxiety-skills-bottom-row > ul > li:first-child {
+    padding-right: 10px;
 }
 
 .character-name {
@@ -41,6 +109,29 @@
 
 .player-name {
     padding-bottom: 50px;
+}
+
+.cantankerous {
+    display: flex;
+    justify-content: center;
+}
+
+.cantankerous-skills-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cantankerous-skills-second-row > ul {
+    display: flex;
+}
+
+.cantankerous-skills-second-row > ul > li:first-child {
+    padding-right: 10px;
+}
+
+.cantankerous-skills-second-row > ul > li:not(:first-child) {
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 
